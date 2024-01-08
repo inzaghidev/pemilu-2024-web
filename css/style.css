@@ -127,6 +127,11 @@ img {
   display: block;
 }
 
+#logo {
+  order: 1;
+  display: block;
+}
+
 .image {
   margin-left: 0;
   padding-bottom: 10px;
@@ -209,6 +214,10 @@ svg:not(:root) {
   color: #ddd;
 }
 
+.pemilu-2024 {
+  padding-bottom: 1em;
+}
+
 .capres-cawapres {
   max-width: 1680px;
   margin-left: auto;
@@ -225,6 +234,10 @@ svg:not(:root) {
   position: relative;
   padding: 60px 30px;
   background-color: #ddd;
+}
+
+.logo-kampanye {
+  padding: 30px 60px;
 }
 
 body {
