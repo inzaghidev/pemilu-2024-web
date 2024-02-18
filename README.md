@@ -4,7 +4,6 @@ Merupakan Aplikasi Web Sederhana untuk Pemilu 2024 menggunakan HTML, CSS (Bootst
 
 # Deskripsi
 
-| GAMBAR |
-![]()
+![Pemilu 2024 Web](/images/pemilu-2024-web.png)
 
 Situs Web ini akan menampilkan Nama-nama Pasangan Calon (Paslon) Presiden-Wapres dan juga Nama-nama Partai Politik dalam Pemilu 2024. Juga, akan menampilkan nama-nama Hiasan Pemilu seperti Maskot hingga Logo Jargon.
