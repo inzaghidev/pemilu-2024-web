@@ -23,9 +23,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="shortcut icon" href="./images/kpu-logo.png" />
+    <script src="./js/script.js"></script>
     <title>Pemilu 2024</title>
   </head>
   <body>
@@ -72,7 +74,53 @@
       />
       <h1>Pemilihan Umum 2024</h1>
     </div>
-    <section class="pemilu-wrapper"></section>
+    <section class="pemilu-wrapper">
+      <div class="card text-center">
+        <div class="card-header">Featured</div>
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </section>
+    <div class="col-xl-3 col-lg-6 mb-4">
+      <div class="bg-white rounded-lg p-5 shadow">
+        <h2 class="h6 font-weight-bold text-center mb-4">Work hours</h2>
+
+        <!-- Progress bar 2 -->
+        <div class="progress-circle mx-auto" data-value="25">
+          <span class="progress-left">
+            <span class="progress-bar border-danger"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar border-danger"></span>
+          </span>
+          <div
+            class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+          >
+            <div class="h2 font-weight-bold">25<sup class="small">%</sup></div>
+          </div>
+        </div>
+        <!-- END -->
+
+        <!-- Demo info-->
+        <div class="row text-center mt-4">
+          <div class="col-6 border-right">
+            <div class="h4 font-weight-bold mb-0">28%</div>
+            <span class="small text-gray">Last week</span>
+          </div>
+          <div class="col-6">
+            <div class="h4 font-weight-bold mb-0">60%</div>
+            <span class="small text-gray">Last month</span>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+    </div>
     <section class="capres-cawapres">
       <h2 class="my-4">
         Anggota Pasangan Calon
@@ -86,17 +134,36 @@
               class="card-img-top"
               alt="..."
             />
-            <img
-              src="./images/logo-kampanye-anies-muhaimin.png"
-              class="card-img-bottom logo-kampanye"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">1. Anies-Muhaimin</h5>
-              <div class="card-text text-black-50">
-                Anies Baswedan - Muhaimin Iskandar
+            <ul class="list-group list-group-flush">
+              <img
+                src="./images/logo-kampanye-anies-muhaimin.png"
+                class="card-img-bottom logo-kampanye logo-paslon"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">1. Anies-Muhaimin</h5>
+                <div class="card-text text-black-50">
+                  Anies Baswedan - Muhaimin Iskandar
+                </div>
               </div>
-            </div>
+              <div class="rounded-lg p-5 shadow">
+                <div class="progress-circle mx-auto" data-value="24">
+                  <span class="progress-left">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <span class="progress-right">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <div
+                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <div class="h2 font-weight-bold">
+                      24<sup class="small">%</sup>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-4 col-md-6 mb-4">
@@ -106,17 +173,36 @@
               class="card-img-top"
               alt="..."
             />
-            <img
-              src="./images/logo-kampanye-prabowo-gibran.png"
-              class="card-img-bottom logo-kampanye"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">2. Prabowo-Gibran</h5>
-              <div class="card-text text-black-50">
-                Prabowo Subianto - Gibran Rakabuming
+            <ul class="list-group list-group-flush">
+              <img
+                src="./images/logo-kampanye-prabowo-gibran.png"
+                class="card-img-bottom logo-kampanye logo-paslon"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">2. Prabowo-Gibran</h5>
+                <div class="card-text text-black-50">
+                  Prabowo Subianto - Gibran Rakabuming
+                </div>
               </div>
-            </div>
+              <div class="rounded-lg p-5 shadow">
+                <div class="progress-circle mx-auto" data-value="56">
+                  <span class="progress-left">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <span class="progress-right">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <div
+                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <div class="h2 font-weight-bold">
+                      56<sup class="small">%</sup>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-4 col-md-6 mb-4">
@@ -126,17 +212,36 @@
               class="card-img-top"
               alt="..."
             />
-            <img
-              src="./images/logo-kampanye-ganjar-mahfud.png"
-              class="card-img-bottom logo-kampanye"
-              alt="..."
-            />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">3. Ganjar-Mahfud</h5>
-              <div class="card-text text-black-50">
-                Ganjar Pranowo - Mahfud MD
+            <ul class="list-group list-group-flush">
+              <img
+                src="./images/logo-kampanye-ganjar-mahfud.png"
+                class="card-img-bottom logo-kampanye logo-paslon"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">3. Ganjar-Mahfud</h5>
+                <div class="card-text text-black-50">
+                  Ganjar Pranowo - Mahfud MD
+                </div>
               </div>
-            </div>
+              <div class="rounded-lg p-5 shadow">
+                <div class="progress-circle mx-auto" data-value="20">
+                  <span class="progress-left">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <span class="progress-right">
+                    <span class="progress-bar border-primary"></span>
+                  </span>
+                  <div
+                    class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <div class="h2 font-weight-bold">
+                      20<sup class="small">%</sup>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </ul>
           </div>
         </div>
       </div>
@@ -151,294 +256,334 @@
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pkb.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                1. Partai Kebangkitan Bangsa (PKB)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  1. Partai Kebangkitan Bangsa (PKB)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-gerindra.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                2. Partai Gerakan Indonesia Raya (Gerindra)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  2. Partai Gerakan Indonesia Raya (Gerindra)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pdip.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                3. Partai Demokrasi Indonesia Perjuangan (PDIP)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  3. Partai Demokrasi Indonesia Perjuangan (PDIP)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-golkar.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">4. Partai Golongan Karya (Golkar)</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  4. Partai Golongan Karya (Golkar)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-nasdem.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                5. Partai Nasional Demokrat (NasDem)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  5. Partai Nasional Demokrat (NasDem)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-buruh.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">6. Partai Buruh</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">6. Partai Buruh</h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-gelora.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                7. Partai Gelombang Rakyat Indonesia (Gelora)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  7. Partai Gelombang Rakyat Indonesia (Gelora)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pks.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                8. Partai Keadilan Sejahtera (PKS)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  8. Partai Keadilan Sejahtera (PKS)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pkn.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                9. Partai Kebangkitan Nusantara (PKN)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  9. Partai Kebangkitan Nusantara (PKN)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-hanura.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                10. Partai Hati Nurani Rakyat (Hanura)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  10. Partai Hati Nurani Rakyat (Hanura)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-garuda.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                11. Partai Garda Perubahan Indonesia (Garuda)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  11. Partai Garda Perubahan Indonesia (Garuda)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pan.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">12. Partai Amanat Nasional (PAN)</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  12. Partai Amanat Nasional (PAN)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-pbb.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">13. Partai Bulan Bintang (PBB)</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">13. Partai Bulan Bintang (PBB)</h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-demokrat.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">14. Partai Demokrat</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">14. Partai Demokrat</h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-psi.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                15. Partai Solidaritas Indonesia (PSI)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  15. Partai Solidaritas Indonesia (PSI)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-perindo.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                16. Partai Persatuan Indonesia (Perindo)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  16. Partai Persatuan Indonesia (Perindo)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-ppp.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">
-                17. Partai Persatuan Pembangunan (PPP)
-              </h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">
+                  17. Partai Persatuan Pembangunan (PPP)
+                </h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
         <div class="col-xl-2 col-md-4 col-sm-6 mb-4">
           <div class="card border-0 shadow">
             <img
               src="./images/logo-partai-ummat.png"
-              class="card-img-top"
+              class="card-img-top logo-partai"
               alt="..."
             />
-            <div class="card-body text-center">
-              <h5 class="card-title mb-0">24. Partai Ummat</h5>
-              <div class="card-text text-black-50">
-                Lorem ipsum dolor sit amet.
+            <ul class="list-group list-group-flush">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-0">24. Partai Ummat</h5>
+                <div class="card-text text-black-50">
+                  Lorem ipsum dolor sit amet.
+                </div>
               </div>
-            </div>
+            </ul>
           </div>
         </div>
       </div>
@@ -483,6 +628,10 @@
 
 <!-- https://bbbootstrap.com/snippets/draggable-grid-cards-64396890 -->
 
+<!-- https://freefrontend.com/bootstrap-progress-bars -->
+
 <!-- https://liputanpemilu.com -->
 <!-- https://id.wikipedia.org/wiki/Pemilihan_umum_legislatif_Indonesia_2024 -->
 <!-- https://en.wikipedia.org/wiki/2024_Indonesian_general_election -->
+
+<!-- https://pemilu2024.kpu.go.id/pilpres/hitung-suara -->
